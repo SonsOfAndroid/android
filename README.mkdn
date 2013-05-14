@@ -14,6 +14,8 @@ $ repo init -u git://github.com/SonsOfAndroid/android.git
 
 $ repo sync
 
+<<<<<<< HEAD
+=======
 After Repo Is Synced, place your desired device tree in the required device folder (ie: t0lte would belong in the SOA/Device/Samsung directory)
 
 Check that you have all required dependency files listed in the soa.dependencies file in the tree
@@ -44,3 +46,4 @@ thank you
 
 
 
+>>>>>>> e643acfce515ca7da4e7b55d098337c25f1f244e
