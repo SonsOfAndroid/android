@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="soa"
+           fetch="git://github.com/SonsOfAndroid/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
   <remote name="pt"	
            fetch="git://github.com/ptmr3/" />
            
-  <remote name="soa"
-           fetch="git://github.com/SonsOfAndroid/" />
+  <remote name="cm"
+           fetch="git://github.com/CyanogenMod/" />
 
   <project path="build" name="android_build" remote="soa" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
