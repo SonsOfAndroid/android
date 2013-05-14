@@ -13,6 +13,9 @@
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
+  <remote name="kh"	
+           fetch="git://github.com/koush/" />
+
   <project path="build" name="android_build" remote="soa" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
