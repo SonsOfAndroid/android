@@ -18,6 +18,7 @@
   <project path="bionic" name="android_bionic" remote="soa" revision="master" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="soa" revision="master" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="soa" revision="master" />
+  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="dalvik" name="android_dalvik" remote="soa" revision="master" />
   <project path="development" name="android_development" remote="soa" revision="master" />
   <project path="device/common" name="android_device_common" remote="soa" revision="master" />
