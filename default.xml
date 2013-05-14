@@ -55,7 +55,7 @@
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/bsdiff" name="platform/external/bsdiff" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="external/busybox" name="android_external_busybox" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
   <project path="external/bzip2" name="platform/external/bzip2" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/chromium" name="android_external_chromium" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
