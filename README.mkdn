@@ -22,7 +22,7 @@ CD to device tree path && run ./extract-files.sh while Device is connecyed via U
 
 CD back to main SOA directory and type
 
-. build/envsetup.sh && export USE_CCACHE=1 && croot && brunch <device codename>
+. build/envsetup.sh && export USE_CCACHE=1 && croot && brunch (device codename)
 
 Now go do something productive... Depending on your machine this could take several hours to finish compiling
 
