@@ -52,7 +52,7 @@
   <project path="external/astl" name="platform/external/astl" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/bison" name="platform/external/bison" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/blktrace" name="platform/external/blktrace" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/bsdiff" name="platform/external/bsdiff" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/busybox" name="android_external_busybox" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
