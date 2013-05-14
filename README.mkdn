@@ -1,0 +1,36 @@
+This is the initial *expirimental* manifest. Sync AT YOUR OWN RISK 
+
+
+$ mkdir -p ~/bin
+$ mkdir -p ~/SOA
+
+$ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+$ chmod a+x ~/bin/repo
+
+$ export PATH=${PATH}:~/bin
+
+$ cd ~/SOA
+$ repo init -u git://github.com/SonsOfAndroid/android.git
+
+$ repo sync
+
+After Repo Is Synced, place your desired device tree in the required device folder (ie: t0lte would belong in the SOA/Device/Samsung directory)
+
+Check that you have all required dependency files listed in the soa.dependencies file in the tree
+
+CD to device tree path && run ./extract-files.sh while Device is connecyed via USB
+
+CD back to main SOA directory and type
+
+. build/envsetup.sh && export USE_CCACHE=1 && croot && brunch <device codename>
+
+Now go do something productive... Depending on your machine this could take several hours to finish compiling
+
+
+
+
+
+If you want to add into the main SOA system, we will need to submit every change for review and will be decided upon before being merged into the main repos
+
+
+

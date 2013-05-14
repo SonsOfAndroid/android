@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com" />
+
+  <remote name="pt"	
+           fetch="git://github.com/ptmr3/" />
+           
+  <remote name="soa"
+           fetch="git://github.com/SonsOfAndroid/" />
+
+  <project path="build" name="android_build" remote="soa" revision="master">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="android" name="android" remote="soa" revision="master" />
+  <project path="abi/cpp" name="android_abi_cpp" remote="soa" revision="master" />
+  <project path="bionic" name="android_bionic" remote="soa" revision="master" />
+  <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="soa" revision="master" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="soa" revision="master" />
+  <project path="dalvik" name="android_dalvik" remote="soa" revision="master" />
+  <project path="development" name="android_development" remote="soa" revision="master" />
+  <project path="device/common" name="android_device_common" remote="soa" revision="master" />
+  <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" remote="soa" revision="master" />
+  <project path="device/generic/armv7-a" name="android_device_generic_armv7-a" remote="soa" revision="master" />
+  <project path="device/generic/common" name="android_device_generic_common" remote="soa" revision="master" />
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="soa" revision="master" />
+  <project path="device/generic/mips" name="android_device_generic_mips" remote="soa" revision="master" />
+  <project path="device/generic/x86" name="android_device_generic_x86" remote="soa" revision="master" />
+  <project path="device/google/accessory/arduino" name="android_device_google_accessory_arduino" remote="soa" revision="master" />>
+  <project path="device/google/accessory/demokit" name="android_device_google_accessory_demokit" remote="soa" revision="master" />
+  <project path="device/sample" name="android_device_sample" remote="soa" revision="master" />
+  <project path="device/ti/panda" name="android_device_ti_panda" remote="soa" revision="master" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="external" name="android_external" remote="soa" revision="master" />
+  <project path="frameworks" name="android_frameworks" remote="soa" revision="master" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="soa" revision="master" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="soa" revision="master" />
+  <project path="gdk" name="platform/gdk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="hardware" name="android_hardware" remote="soa" revision="master" />
+  <project path="libcore" name="android_libcore" remote="soa" revision="master" />
+  <project path="libnativehelper" name="android_libnativehelper" remote="soa" revision="master" />
+  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="packages" name="android_packages" remote="soa" revision="master" />
+  <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+ <project path="prebuilt" name="android_prebuilt" remote="soa" revision="master" />
+  <project path="prebuilts" name="android_prebuilts" remote="soa" revision="master" />
+  <project path="sdk" name="android_sdk" remote="soa" revision="master" />
+  <project path="system" name="android_system" remote="soa" revision="master" />
+  <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="vendor" name="android_vendor" remote="soa" revision="master" />
+</manifest>
