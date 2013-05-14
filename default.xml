@@ -69,7 +69,7 @@
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="cm" revision="cm-10.1" />
   <project path="external/doclava" name="platform/external/doclava" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/dropbear" name="platform/external/dropbear" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cm" revision="cm-10.1" />
   <project path="external/easymock" name="platform/external/easymock" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
