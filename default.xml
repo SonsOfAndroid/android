@@ -49,7 +49,6 @@
   <project path="external/apache-qp" name="platform/external/apache-qp" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/arduino" name="platform/external/arduino" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="external/armzipalign" name="android_external_armzipalign" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/astl" name="platform/external/astl" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/bison" name="platform/external/bison" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="external/blktrace" name="platform/external/blktrace" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
