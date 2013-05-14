@@ -35,7 +35,9 @@ If you want to add into the main SOA system, we will need to submit every change
 
 
 
-If you decide to post a build, all we require is that you shoot PTMR3 a pm to let us know and clone any of the original OPs including The header and donation link. 
+If you decide to post a build, all we require is that you shoot PTMR3 a pm to let us know
+ and clone any of the original OPs including The header and donation link. 
+
 If you are not a member of DD/SOA dev team, you must label your thread 'Unofficial'
 
 thank you
